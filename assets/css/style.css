@@ -1,0 +1,278 @@
+
+/* ========= common css ========= */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #3E3E3E;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.title {
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 48px;
+  color: #363958;
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.title span {
+  color: #FF8367;
+}
+
+.left-column {
+  width: 45%;
+  float: left;
+  padding: 0 2%;
+}
+
+.right-column {
+  width: 45%;
+  float: left;
+  padding: 0 2%;
+}
+
+.main-btn {
+  background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 18px 56px;
+  display: inline-block;
+}
+
+/* ========= header css ========= */
+
+.menu-area {
+  text-align: right;
+  padding: 35px 0;
+}
+
+.menu-area ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.menu-area ul li a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #3C3C3C;
+}
+
+/* ========= hero section css ========= */
+
+.hero-content {
+  padding: 110px 0px;
+}
+
+.hero-content h1 {
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  color: #363958;
+  margin: 0;
+}
+
+.hero-content h1 span {
+  color: #FF8367;
+  display: block;
+}
+
+.hero-content p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 35px;
+}
+
+/* ========= about section css ========= */
+
+.about-content {
+  padding: 145px 0px;
+}
+
+.about-content .title {
+  margin-bottom :30px;
+}
+
+.about-content p {
+  margin-bottom: 30px;
+}
+
+.about-content .main-btn {
+  padding: 17px 24px;
+}
+
+.about-content .main-btn img {
+  padding-right: 15px;
+}
+
+/* ========= service section css ========= */
+
+.service-section {
+  padding: 120px 0px;
+}
+
+.three-column-wrapper .single-column {
+  width: 30%;
+  float: left;
+  margin: .5%;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, .1);
+  padding: 15px;
+}
+
+.single-column-image img {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+/* ========= project section css ========= */
+
+.project-section {
+  padding: 120px 0;
+  background: #F8F9FC;
+}
+
+.project-content h3 a {
+  color: #363958;
+}
+
+/* ========= testimonial section css ========= */
+
+.testimonial-section {
+  padding: 120px 0px 70px;
+}
+
+.testimonial-wrapper {
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, .1);
+  text-align: center;
+  max-width: 550px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.testimonial-content p {
+  margin-bottom: 30px;
+}
+
+.testimonial-content .info h4 {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #FF8367;
+}
+
+/* ========= cta section css ========= */
+
+.cta-section {
+  padding-bottom: 120px;
+}
+
+.cta-wrapper {
+  width: 75%;
+  margin: auto;
+  background-image: url('../images/cta-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 75px 50px;
+  border-radius: 30px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.cta-wrapper h2 {
+  color: #ffffff;
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 1;
+  margin: 0;
+  float: left;
+}
+
+.cta-wrapper .main-btn {
+  float: right;
+}
+
+/* ========= footer css ========= */
+
+footer {
+  background: #F8F9FC;
+  text-align: center;
+  padding: 100px 0px;
+}
+
+footer h4 {
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 24px;
+  color: #696871;
+  margin: 0;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+footer h3 {
+  margin: 0;
+}
+
+footer h3 a {
+  font-weight: bold;
+  font-size: 36px;
+  color: #363958;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.socials li {
+  display: inline-block;
+  margin: 5px 15px;
+}
+
+.socials li a {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.socials li a img {
+  max-width: 100%;
+}
